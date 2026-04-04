@@ -1,11 +1,7 @@
-.env
-/node_modules
-/build
-/.cache
+# dependencies
+node_modules/
+# production
+/dist/
+# misc
 .DS_Store
-/.vscode
-/.idea
-/.history
-/.git
-# Local Netlify folder
-.netlify
+hello.js
